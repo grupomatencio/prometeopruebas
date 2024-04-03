@@ -17,13 +17,6 @@ Route::post('/inicio_sesion',  [LoginController::class, 'login'])->name('inicio_
 Route::get('/logout',  [LoginController::class, 'logout'])->name('logout');
 
 
-
-
-
-
-
-
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -42,3 +35,4 @@ Route::get('/tecnico', function () {
     return ('tecnico');
 })->name('tecnico');;
 
+/*------------------------------------*/
